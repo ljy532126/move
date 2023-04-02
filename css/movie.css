@@ -1,0 +1,70 @@
+/* 清除默认样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 网页版式 */
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+.comment img {
+    float: left;
+    margin-right: 5px;
+    /* border: 1px solid green; */
+}
+.comment span {
+    color: #ffab0f;
+    padding: 8px;
+    /* border: 1px solid red; */
+}
+.comment p {
+    margin-top: 10px;
+    font-size: 13px;
+    /* background-color: #ffab0f; */
+    /* border: 1px solid blue; */
+}
+/* 导航栏 */
+.nav-box{
+    float: right;
+    line-height:63px ;
+}
+.nav-box a{
+    text-decoration: none;
+    color: #000;
+}
+/* 轮播图 */
+.banner img{
+    margin:10px 0 15px 0 ;
+}
+.blue{
+    size: 10px;
+    color:#06caf6 ;
+}
+.movie-img{
+    margin: 5px 0;
+}
+.hr-margin{
+    margin: 15px 0;
+}
+
+.int-left{
+    width: 536px;
+    float: left;
+}
+.int-right img{
+    float: right;
+}
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.introduce{
+    margin-bottom: 20px;
+}
+.com-img{
+    margin-top: 15px;
+}
